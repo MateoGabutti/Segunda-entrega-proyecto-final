@@ -1,0 +1,492 @@
+main{
+    article{
+        .grid-buzos-container{
+            display: grid;
+            grid-template-columns: repeat(5, 20%);
+            grid-template-rows: repeat(2, 50%);
+            grid-template-areas:
+            "buzos1 buzos2 buzos3 buzos4 buzos5" 
+            "buzos-precio1 buzos-precio2 buzos-precio3 buzos-precio4 buzos-precio5";
+            .buzos1{
+                grid-area: buzos1;
+            }
+            .buzos2{
+                grid-area: buzos2;
+            }
+            .buzos3{
+                grid-area: buzos3;
+            }
+            .buzos4{
+                grid-area: buzos4;
+            }
+            .buzos5{
+                grid-area: buzos5;
+            }
+            .buzos1, .buzos2, .buzos3, .buzos4, .buzos5, .buzos6, .buzos7, .buzos8, .buzos9, .buzos10{
+                object-fit: cover;
+                width: 250px;
+                height: 350px;
+                margin: 15px;
+                border: 2px solid black;
+                border-radius: 10%;
+            }
+            .buzos-precio1{
+                grid-area: buzos-precio1;
+            }
+            .buzos-precio2{
+                grid-area: buzos-precio2;
+            }
+            .buzos-precio3{
+                grid-area: buzos-precio3;
+            }
+            .buzos-precio4{
+                grid-area: buzos-precio4;
+            }
+            .buzos-precio5{
+                grid-area: buzos-precio5;
+            }
+            .buzos-precio1, .buzos-precio2, .buzos-precio3, .buzos-precio4, .buzos-precio5, .buzos-precio6, .buzos-precio7, .buzos-precio8, .buzos-precio9, .buzos-precio10{
+                text-align: center;
+                margin-top: 110px;
+                text-decoration: none;
+                color: black;
+                font-size: 24px
+            }
+        }
+        .grid-buzos-container2{
+            display: grid;
+            grid-template-columns: repeat(5, 20%);
+            grid-template-rows: repeat(2, 50%);
+            grid-template-areas:
+            "buzos6 buzos7 buzos8 buzos9 buzos10" 
+            "buzos-precio6 buzos-precio7 buzos-precio8 buzos-precio9 buzos-precio10";
+            .buzos6{
+                grid-area: buzos6;
+            }
+            .buzos7{
+                grid-area: buzos7;
+            }
+            .buzos8{
+                grid-area: buzos8;
+            }
+            .buzos9{
+                grid-area: buzos9;
+            }
+            .buzos10{
+                grid-area: buzos10;
+            }
+            .buzos1, .buzos2, .buzos3, .buzos4, .buzos5, .buzos6, .buzos7, .buzos8, .buzos9, .buzos10{
+                object-fit: cover;
+                width: 250px;
+                height: 350px;
+                margin: 15px;
+                border: 2px solid black;
+                border-radius: 10%;
+            }
+            .buzos-precio6{
+                grid-area: buzos-precio6;
+            }
+            .buzos-precio7{
+                grid-area: buzos-precio7;
+            }
+            .buzos-precio8{
+                grid-area: buzos-precio8;
+            }
+            .buzos-precio9{
+                grid-area: buzos-precio9;
+            }
+            .buzos-precio10{
+                grid-area: buzos-precio10;
+            }
+            .buzos-precio1, .buzos-precio2, .buzos-precio3, .buzos-precio4, .buzos-precio5, .buzos-precio6, .buzos-precio7, .buzos-precio8, .buzos-precio9, .buzos-precio10{
+                text-align: center;
+                margin-top: 110px;
+                text-decoration: none;
+                color: black;
+                font-size: 24px
+            }
+        }
+        @media screen and (max-width: 1200px){
+            .grid-buzos-container{
+                display: grid;
+                grid-template-columns: repeat(3, 30%);
+                grid-template-rows: repeat(4,20%);
+                grid-template-areas:
+                "buzos1 buzos2 buzos3" 
+                "buzos-precio1 buzos-precio2 buzos-precio3" 
+                "buzos4 buzos5 none" 
+                "buzos-precio4 buzos-precio5 none";
+                .buzos1{
+                    grid-area: buzos1;
+                }
+                .buzos2{
+                    grid-area: buzos2;
+                }
+                .buzos3{
+                    grid-area: buzos3;
+                }
+                .buzos4{
+                    grid-area: buzos4;
+                }
+                .buzos5{
+                    grid-area: buzos5;
+                }
+                .buzos1, .buzos2, .buzos3, .buzos4, .buzos5,.buzos6, .buzos7, .buzos8, .buzos9, .buzos10 {
+                    object-fit: cover;
+                    width: 200px;
+                    height: 300px;
+                    border: 1px solid black;
+                    border-radius: 10%;
+                }
+                .buzos-precio1{
+                    grid-area: buzos-precio1;
+                    margin-top: 120px;
+                }
+                .buzos-precio2{
+                    grid-area: buzos-precio2;
+                    margin-top: 120px;
+                }
+                .buzos-precio3{
+                    grid-area: buzos-precio3;
+                    margin-top: 120px;
+                }
+                .buzos-precio4{
+                    grid-area: buzos-precio4;
+                    margin-top: 120px;
+                }
+                .buzos-precio5{
+                    grid-area: buzos-precio5;
+                    margin-top: 120px;
+                }
+                .buzos-precio1, .buzos-precio2, .buzos-precio3, .buzos-precio4, .buzos-precio5, .buzos-precio6, .buzos-precio7, .buzos-precio8, .buzos-precio9, .buzos-precio10{
+                    text-align: center;
+                    text-decoration: none;
+                    color: black;
+                    font-size: 24px
+                }
+            }
+            .grid-buzos-container2{
+                display: grid;
+                grid-template-columns: repeat(3, 30%);
+                grid-template-rows: repeat(4,20%);
+                grid-template-areas:
+                "buzos6 buzos7 buzos8" 
+                "buzos-precio6 buzos-precio7 buzos-precio8" 
+                "buzos9 buzos10 none" 
+                "buzos-precio9 buzos-precio10 none";
+                .buzos6{
+                    grid-area: buzos6;
+                }
+                .buzos7{
+                    grid-area: buzos7;
+                }
+                .buzos8{
+                    grid-area: buzos8;
+                }
+                .buzos9{
+                    grid-area: buzos9;
+                }
+                .buzos10{
+                    grid-area: buzos10;
+                }
+                .buzos-precio6{
+                    grid-area: buzos-precio6;
+                    margin-top: 120px;
+                }
+                .buzos-precio7{
+                    grid-area: buzos-precio7;
+                    margin-top: 120px;
+                }
+                .buzos-precio8{
+                    grid-area: buzos-precio8;
+                    margin-top: 120px;
+                }
+                .buzos-precio9{
+                    grid-area: buzos-precio9;
+                    margin-top: 120px;
+                }
+                .buzos-precio10{
+                    grid-area: buzos-precio10;
+                    margin-top: 120px;
+                }
+                .buzos-precio1, .buzos-precio2, .buzos-precio3, .buzos-precio4, .buzos-precio5, .buzos-precio6, .buzos-precio7, .buzos-precio8, .buzos-precio9, .buzos-precio10{
+                    text-align: center;
+                    text-decoration: none;
+                    color: black;
+                    font-size: 24px
+                }
+                .buzos1, .buzos2, .buzos3, .buzos4, .buzos5,.buzos6, .buzos7, .buzos8, .buzos9, .buzos10 {
+                    object-fit: cover;
+                    width: 200px;
+                    height: 300px;
+                    border: 1px solid black;
+                    border-radius: 10%;
+                }
+            }
+        }
+        @media screen and (max-width: 768px){
+            .grid-buzos-container{
+                display: grid;
+                grid-template-columns: repeat(2, 40%);
+                grid-template-rows: repeat(6,15%);
+                grid-template-areas:
+                "buzos1 buzos2" 
+                "buzos-precio1 buzos-precio2" 
+                "buzos3 buzos4" 
+                "buzos-precio3 buzos-precio4"
+                "buzos5 none"
+                "buzos-precio5 none";
+                .buzos1{
+                    grid-area: buzos1;
+                    margin-left: 20px;
+                }
+                .buzos2{
+                    grid-area: buzos2;
+                    margin-left: 60px;
+                }
+                .buzos3{
+                    grid-area: buzos3;
+                    margin-left: 20px;
+                }
+                .buzos4{
+                    grid-area: buzos4;
+                    margin-left: 60px;
+                }
+                .buzos5{
+                    grid-area: buzos5;
+                    margin-left: 20px;
+                }
+                .buzos1, .buzos2, .buzos3, .buzos4, .buzos5,.buzos6, .buzos7, .buzos8, .buzos9, .buzos10 {
+                    object-fit: cover;
+                    width: 175px;
+                    height: 275px;
+                    border: 1px solid black;
+                    border-radius: 10%;
+                }
+                .buzos-precio1{
+                    grid-area: buzos-precio1;
+                    margin-left: 20px;
+                }
+                .buzos-precio2{
+                    grid-area: buzos-precio2;
+                    margin-left: 60px;
+                }
+                .buzos-precio3{
+                    grid-area: buzos-precio3;
+                    margin-left: 20px;
+                }
+                .buzos-precio4{
+                    grid-area: buzos-precio4;
+                    margin-left: 60px;
+                }
+                .buzos-precio5{
+                    grid-area: buzos-precio5;
+                    margin-left: 20px;
+                }
+                .buzos-precio1, .buzos-precio2, .buzos-precio3, .buzos-precio4, .buzos-precio5, .buzos-precio6, .buzos-precio7, .buzos-precio8, .buzos-precio9, .buzos-precio10{
+                    text-align: center;
+                    text-decoration: none;
+                    color: black;
+                    font-size: 24px
+                }
+            }
+            .grid-buzos-container2{
+                display: grid;
+                grid-template-columns: repeat(2, 40%);
+                grid-template-rows: repeat(6,15%);
+                grid-template-areas:
+                "buzos6 buzos7" 
+                "buzos-precio6 buzos-precio7" 
+                "buzos8 buzos9" 
+                "buzos-precio8 buzos-precio9"
+                "buzos10 none"
+                "buzos-precio10 none";
+                .buzos6{
+                    grid-area: buzos6;
+                    margin-left: 20px;
+                }
+                .buzos7{
+                    grid-area: buzos7;
+                    margin-left: 60px;
+                }
+                .buzos8{
+                    grid-area: buzos8;
+                    margin-left: 20px;
+                }
+                .buzos9{
+                    grid-area: buzos9;
+                    margin-left: 60px;
+                }
+                .buzos10{
+                    grid-area: buzos10;
+                    margin-left: 20px;
+                }
+                .buzos-precio6{
+                    grid-area: buzos-precio6;
+                    margin-left: 20px;
+                }
+                .buzos-precio7{
+                    grid-area: buzos-precio7;
+                    margin-left: 60px;
+                }
+                .buzos-precio8{
+                    grid-area: buzos-precio8;
+                    margin-left: 20px;
+                }
+                .buzos-precio9{
+                    grid-area: buzos-precio9;
+                    margin-left: 60px;
+                }
+                .buzos-precio10{
+                    grid-area: buzos-precio10;
+                    margin-left: 20px;
+                }
+                .buzos1, .buzos2, .buzos3, .buzos4, .buzos5,.buzos6, .buzos7, .buzos8, .buzos9, .buzos10 {
+                    object-fit: cover;
+                    width: 175px;
+                    height: 275px;
+                    border: 1px solid black;
+                    border-radius: 10%;
+                }
+                .buzos-precio1, .buzos-precio2, .buzos-precio3, .buzos-precio4, .buzos-precio5, .buzos-precio6, .buzos-precio7, .buzos-precio8, .buzos-precio9, .buzos-precio10{
+                    text-align: center;
+                    text-decoration: none;
+                    color: black;
+                    font-size: 24px
+                }
+            }
+        }
+        @media screen and (max-width: 420px){
+            .grid-buzos-container{
+                display: grid;
+                grid-template-columns: repeat(2, 30%);
+                grid-template-rows: repeat(6,11%);
+                grid-template-areas:
+                "buzos1 buzos2" 
+                "buzos-precio1 buzos-precio2" 
+                "buzos3 buzos4" 
+                "buzos-precio3 buzos-precio4"
+                "buzos5 none"
+                "buzos-precio5 none";
+                .buzos1{
+                    grid-area: buzos1;
+                    margin-top: 20px;
+                }
+                .buzos2{
+                    grid-area: buzos2;
+                    margin-top: 20px;
+                }
+                .buzos3{
+                    grid-area: buzos3;
+                    margin-top: 20px;
+                }
+                .buzos4{
+                    grid-area: buzos4;
+                    margin-top: 20px;
+                }
+                .buzos5{
+                    grid-area: buzos5;
+                    margin-top: 20px;
+                }
+                .buzos1, .buzos2, .buzos3, .buzos4, .buzos5,.buzos6, .buzos7, .buzos8, .buzos9, .buzos10 {
+                    object-fit: cover;
+                    width: 100px;
+                    height: 200px;
+                    border: 1px solid black;
+                    border-radius: 10%;
+                }
+                .buzos-precio1{
+                    grid-area: buzos-precio1;
+                    margin-left: 20px;
+                }
+                .buzos-precio2{
+                    grid-area: buzos-precio2;
+                    margin-left: 80px;
+                }
+                .buzos-precio3{
+                    grid-area: buzos-precio3;
+                    margin-left: 20px;
+                }
+                .buzos-precio4{
+                    grid-area: buzos-precio4;
+                    margin-left: 80px;
+                }
+                .buzos-precio5{
+                    grid-area: buzos-precio5;
+                    margin-left: 20px;
+                }
+                .buzos-precio1, .buzos-precio2, .buzos-precio3, .buzos-precio4, .buzos-precio5, .buzos-precio6, .buzos-precio7, .buzos-precio8, .buzos-precio9, .buzos-precio10{
+                    text-align: center;
+                    text-decoration: none;
+                    color: black;
+                    font-size: 16px
+                }
+            }
+            .grid-buzos-container2{
+                display: grid;
+                grid-template-columns: repeat(2, 30%);
+                grid-template-rows: repeat(6,11%);
+                grid-template-areas:
+                "buzos6 buzos7" 
+                "buzos-precio6 buzos-precio7" 
+                "buzos8 buzos9" 
+                "buzos-precio8 buzos-precio9"
+                "buzos10 none"
+                "buzos-precio10 none";
+                .buzos6{
+                    grid-area: buzos6;
+                    margin-top: 20px;
+                }
+                .buzos7{
+                    grid-area: buzos7;
+                    margin-top: 20px;
+                }
+                .buzos8{
+                    grid-area: buzos8;
+                    margin-top: 20px;
+                }
+                .buzos9{
+                    grid-area: buzos9;
+                    margin-top: 20px;
+                }
+                .buzos10{
+                    grid-area: buzos10;
+                    margin-top: 20px;
+                }
+                .buzos-precio6{
+                    grid-area: buzos-precio6;
+                    margin-left: 20px;
+                }
+                .buzos-precio7{
+                    grid-area: buzos-precio7;
+                    margin-left: 80px;
+                }
+                .buzos-precio8{
+                    grid-area: buzos-precio8;
+                    margin-left: 20px;
+                }
+                .buzos-precio9{
+                    grid-area: buzos-precio9;
+                    margin-left: 80px;
+                }
+                .buzos-precio10{
+                    grid-area: buzos-precio10;
+                    margin-left: 20px;
+                }
+                .buzos1, .buzos2, .buzos3, .buzos4, .buzos5,.buzos6, .buzos7, .buzos8, .buzos9, .buzos10 {
+                    object-fit: cover;
+                    width: 100px;
+                    height: 200px;
+                    border: 1px solid black;
+                    border-radius: 10%;
+                }
+                .buzos-precio1, .buzos-precio2, .buzos-precio3, .buzos-precio4, .buzos-precio5, .buzos-precio6, .buzos-precio7, .buzos-precio8, .buzos-precio9, .buzos-precio10{
+                    text-align: center;
+                    text-decoration: none;
+                    color: black;
+                    font-size: 16px
+                }
+            }
+        } 
+    } 
+} 

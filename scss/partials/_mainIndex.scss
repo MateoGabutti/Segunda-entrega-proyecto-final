@@ -1,0 +1,156 @@
+main{
+    .titulo{
+            text-align: center;
+            /*font-size: 35px;
+            margin: 10px;
+            border: 1px solid #000;
+            background-color: #666;
+        */} 
+    div{
+        .img-carrousel{
+            margin: 10px;
+            align-items: center;
+            align-self: center;
+            text-align: center;
+            justify-content: center;
+            width: 70%;
+            height: 150px;
+        }
+    }
+    article{
+        .grid-index-container{
+            margin: 15px;
+            display: grid;
+            grid-template-columns: repeat(3, 33%);
+            grid-template-rows: repeat(2, 370px);
+            gap: 1px;
+            grid-template-areas: 
+            "imagen1-index imagen2-index imagen3-index"
+            "a3-index a1-index a2-index";
+            .imagen1-index{
+                grid-area: imagen1-index;
+                margin: 8px;;
+                width: 90%;
+            }
+            .imagen2-index{
+                grid-area: imagen2-index;
+                margin: 8px;
+                width: 90%;
+            }
+            .imagen3-index{
+                grid-area: imagen3-index;
+                margin: 8px;
+                width: 90%;
+            }
+            .a1-index{
+                grid-area: a1-index;
+                text-align: center;
+                margin-top: 60%;
+                font-size: 30px;
+                text-decoration: none;
+                color: blue;
+                &:hover{
+                    color: red;
+                }
+            }
+            .a2-index{
+                grid-area: a2-index;
+                text-align: center;
+                margin-top: 53%;
+                margin-bottom: 10%;
+                font-size: 30px;
+                text-decoration: none;
+                color: blue;
+                &:hover{
+                    color: red;
+                }
+            }
+            .a3-index{
+                grid-area: a3-index;
+                text-align: center;
+                margin-top: 49%;
+                margin-bottom: 10%;
+                font-size: 30px;
+                text-decoration: none;
+                color: blue;
+                padding: 0px;
+                &:hover{
+                    color: red;
+                }
+            }
+        }
+        @media screen and (max-width: 768px){
+            .grid-index-container{
+                display: grid;
+                width: 100%;
+                grid-template-columns: repeat(2, 45%);
+                grid-template-rows: repeat(4,25%);
+                grid-template-areas: 
+                "imagen1-index imagen2-index"
+                "a3-index a1-index"
+                "imagen3-index none"
+                "a2-index none";
+                .imagen1-index{
+                    grid-area: imagen1-index;
+                    margin-right: 10px;
+                }
+                .imagen2-index{
+                    grid-area: imagen2-index;
+                    
+                }
+                .imagen3-index{
+                    grid-area: imagen3-index;
+                    margin-top: 0%;
+                    align-items: center;
+                }
+                .a3-index{
+                    grid-area: a3-index;
+                    margin-top: 35%;
+                }
+                .a1-index{
+                    grid-area: a1-index;
+                    margin-top: 40%;
+                }
+                .a2-index{
+                    grid-area: a2-index;
+                }
+            }
+        }
+        @media screen and (max-width: 420px){
+            .grid-index-container{
+                display: grid;
+                width: 100%;
+                grid-template-columns: repeat(1, 1fr);
+                grid-template-rows: repeat(6,300px);
+                grid-template-areas: 
+                "imagen1-index"
+                "a3-index" 
+                "imagen2-index"
+                "a1-index"
+                "imagen3-index"
+                "a2-index"; 
+                .imagen1-index{
+                    grid-area: imagen1-index;
+                }
+                .imagen2-index{
+                    grid-area: imagen2-index;
+                }
+                .imagen3-index{
+                    grid-area: imagen3-index;
+                }
+                .a3-index{
+                    grid-area: a3-index;
+                    margin-top: 47%;
+                }
+                .a1-index{
+                    grid-area: a1-index;
+                    margin-top: 60%;
+                }
+                .a2-index{
+                    grid-area: a2-index;
+                    margin-top: 48%;
+                }
+            }
+        }
+    }
+}
