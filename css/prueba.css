@@ -1,13 +1,52 @@
-header .fondo {
+@charset "UTF-8";
+/*colores*/
+/*tipo/tamaño de letra*/
+/*colores*/
+/*tipo/tamaño de letra*/
+/* -----------------------------------------MIXING INDEX----------------------------------------*/
+/*--------------------------------------MIXING BUZOS-----------------------------*/
+/*para escritorio*/
+/*BUZOS media max-width: 1200px*/
+/*BUZOS media max-width: 768px*/
+/*BUZOS media max-width: 420px*/
+/*--------------------------------------MIXING REMERAS-----------------------------*/
+/*para escritorio*/
+/*REMERAS media max-width: 1200px*/
+/*REMERAS media max-width: 768px*/
+/*REMERAS media max-width: 420px*/
+/*colores*/
+/*tipo/tamaño de letra*/
+.header-footer, header .fondo, footer {
   background-image: url(../imagenes/fondonav.jpg); }
 
+/*colores*/
+/*tipo/tamaño de letra*/
+/*colores*/
+/*tipo/tamaño de letra*/
+.header-footer, header .fondo, footer {
+  background-image: url(../imagenes/fondonav.jpg); }
+
+/*colores*/
+/*tipo/tamaño de letra*/
+/*colores*/
+/*tipo/tamaño de letra*/
+/* -----------------------------------------MIXING INDEX----------------------------------------*/
+/*--------------------------------------MIXING BUZOS-----------------------------*/
+/*para escritorio*/
+/*BUZOS media max-width: 1200px*/
+/*BUZOS media max-width: 768px*/
+/*BUZOS media max-width: 420px*/
+/*--------------------------------------MIXING REMERAS-----------------------------*/
+/*para escritorio*/
+/*REMERAS media max-width: 1200px*/
+/*REMERAS media max-width: 768px*/
+/*REMERAS media max-width: 420px*/
 main .titulo {
   text-align: center;
-  /*font-size: 35px;
-            margin: 10px;
-            border: 1px solid #000;
-            background-color: #666;
-        */ }
+  font-size: 35px;
+  margin: 10px;
+  border: 1px solid #000;
+  background-color: grey; }
 
 main div .img-carrousel {
   margin: 10px;
@@ -39,32 +78,32 @@ main article .grid-index-container {
     width: 90%; }
   main article .grid-index-container .a1-index {
     grid-area: a1-index;
-    text-align: center;
     margin-top: 60%;
     font-size: 30px;
+    text-align: center;
     text-decoration: none;
     color: blue; }
     main article .grid-index-container .a1-index:hover {
       color: red; }
   main article .grid-index-container .a2-index {
     grid-area: a2-index;
-    text-align: center;
     margin-top: 53%;
     margin-bottom: 10%;
     font-size: 30px;
+    text-align: center;
     text-decoration: none;
     color: blue; }
     main article .grid-index-container .a2-index:hover {
       color: red; }
   main article .grid-index-container .a3-index {
     grid-area: a3-index;
-    text-align: center;
     margin-top: 49%;
     margin-bottom: 10%;
+    padding: 0px;
     font-size: 30px;
+    text-align: center;
     text-decoration: none;
-    color: blue;
-    padding: 0px; }
+    color: blue; }
     main article .grid-index-container .a3-index:hover {
       color: red; }
 
@@ -116,6 +155,28 @@ main article .grid-index-container {
       grid-area: a2-index;
       margin-top: 48%; } }
 
+/*colores*/
+/*tipo/tamaño de letra*/
+/*colores*/
+/*tipo/tamaño de letra*/
+/* -----------------------------------------MIXING INDEX----------------------------------------*/
+/*--------------------------------------MIXING BUZOS-----------------------------*/
+/*para escritorio*/
+/*BUZOS media max-width: 1200px*/
+/*BUZOS media max-width: 768px*/
+/*BUZOS media max-width: 420px*/
+/*--------------------------------------MIXING REMERAS-----------------------------*/
+/*para escritorio*/
+/*REMERAS media max-width: 1200px*/
+/*REMERAS media max-width: 768px*/
+/*REMERAS media max-width: 420px*/
+main .titulo {
+  text-align: center;
+  font-size: 35px;
+  margin: 10px;
+  border: 1px solid #000;
+  background-color: grey; }
+
 main article section .contacto-h3 {
   text-align: center;
   font-size: 20px; }
@@ -133,7 +194,7 @@ main article section form .formulario-fieldset {
     border-radius: 15px;
     border: none;
     height: 40px;
-    color: white;
+    color: #fff;
     font-size: 16px; }
   main article section form .formulario-fieldset #mensaje {
     grid-area: mensaje;
@@ -148,7 +209,7 @@ main article section form .formulario-fieldset {
     height: 40px;
     border: none;
     border-radius: 30px;
-    color: white; }
+    color: #fff; }
   main article section form .formulario-fieldset .label-nombre {
     grid-area: label-nombre; }
   main article section form .formulario-fieldset #nombre {
@@ -168,6 +229,28 @@ main article section form .formulario-fieldset {
     main article section form .formulario-fieldset input:focus {
       transform: scale(2, 2);
       border-radius: 30px; }
+
+/*colores*/
+/*tipo/tamaño de letra*/
+/*colores*/
+/*tipo/tamaño de letra*/
+/* -----------------------------------------MIXING INDEX----------------------------------------*/
+/*--------------------------------------MIXING BUZOS-----------------------------*/
+/*para escritorio*/
+/*BUZOS media max-width: 1200px*/
+/*BUZOS media max-width: 768px*/
+/*BUZOS media max-width: 420px*/
+/*--------------------------------------MIXING REMERAS-----------------------------*/
+/*para escritorio*/
+/*REMERAS media max-width: 1200px*/
+/*REMERAS media max-width: 768px*/
+/*REMERAS media max-width: 420px*/
+main .titulo {
+  text-align: center;
+  font-size: 35px;
+  margin: 10px;
+  border: 1px solid #000;
+  background-color: grey; }
 
 main article .grid-remeras-container {
   display: grid;
@@ -206,13 +289,13 @@ main article .grid-remeras-container {
     width: 250px;
     height: 350px;
     margin: 15px;
-    border: 2px solid black;
+    border: 2px solid #000;
     border-radius: 10%; }
   main article .grid-remeras-container .precio1, main article .grid-remeras-container .precio2, main article .grid-remeras-container .precio3, main article .grid-remeras-container .precio4, main article .grid-remeras-container .precio5, main article .grid-remeras-container .precio6, main article .grid-remeras-container .precio7, main article .grid-remeras-container .precio8, main article .grid-remeras-container .precio9, main article .grid-remeras-container .precio10 {
     text-align: center;
-    margin-top: 120px;
+    margin-top: 110px;
     text-decoration: none;
-    color: black;
+    color: #000;
     font-size: 24px; }
 
 main article .grid-remeras-container2 {
@@ -242,16 +325,16 @@ main article .grid-remeras-container2 {
     grid-area: precio10; }
   main article .grid-remeras-container2 .precio1, main article .grid-remeras-container2 .precio2, main article .grid-remeras-container2 .precio3, main article .grid-remeras-container2 .precio4, main article .grid-remeras-container2 .precio5, main article .grid-remeras-container2 .precio6, main article .grid-remeras-container2 .precio7, main article .grid-remeras-container2 .precio8, main article .grid-remeras-container2 .precio9, main article .grid-remeras-container2 .precio10 {
     text-align: center;
-    margin-top: 120px;
+    margin-top: 110px;
     text-decoration: none;
-    color: black;
+    color: #000;
     font-size: 24px; }
   main article .grid-remeras-container2 .remeras1, main article .grid-remeras-container2 .remeras2, main article .grid-remeras-container2 .remeras3, main article .grid-remeras-container2 .remeras4, main article .grid-remeras-container2 .remeras5, main article .grid-remeras-container2 .remeras6, main article .grid-remeras-container2 .remeras7, main article .grid-remeras-container2 .remeras8, main article .grid-remeras-container2 .remeras9, main article .grid-remeras-container2 .remeras10 {
     object-fit: cover;
     width: 250px;
     height: 350px;
     margin: 15px;
-    border: 2px solid black;
+    border: 2px solid #000;
     border-radius: 10%; }
 
 @media screen and (max-width: 1200px) {
@@ -272,9 +355,9 @@ main article .grid-remeras-container2 {
       grid-area: remeras5; }
     main article .grid-remeras-container .remeras1, main article .grid-remeras-container .remeras2, main article .grid-remeras-container .remeras3, main article .grid-remeras-container .remeras4, main article .grid-remeras-container .remeras5, main article .grid-remeras-container .remeras6, main article .grid-remeras-container .remeras7, main article .grid-remeras-container .remeras8, main article .grid-remeras-container .remeras9, main article .grid-remeras-container .remeras10 {
       object-fit: cover;
-      width: 200px;
-      height: 300px;
-      border: 1px solid black;
+      width: 190px;
+      height: 290px;
+      border: 1px solid #000;
       border-radius: 10%; }
     main article .grid-remeras-container .precio1 {
       grid-area: precio1; }
@@ -289,7 +372,7 @@ main article .grid-remeras-container2 {
     main article .grid-remeras-container .precio1, main article .grid-remeras-container .precio2, main article .grid-remeras-container .precio3, main article .grid-remeras-container .precio4, main article .grid-remeras-container .precio5, main article .grid-remeras-container .precio6, main article .grid-remeras-container .precio7, main article .grid-remeras-container .precio8, main article .grid-remeras-container .precio9, main article .grid-remeras-container .precio10 {
       text-align: center;
       text-decoration: none;
-      color: black;
+      color: #000;
       font-size: 24px; }
   main article .grid-remeras-container2 {
     display: grid;
@@ -318,14 +401,14 @@ main article .grid-remeras-container2 {
       grid-area: precio10; }
     main article .grid-remeras-container2 .remeras1, main article .grid-remeras-container2 .remeras2, main article .grid-remeras-container2 .remeras3, main article .grid-remeras-container2 .remeras4, main article .grid-remeras-container2 .remeras5, main article .grid-remeras-container2 .remeras6, main article .grid-remeras-container2 .remeras7, main article .grid-remeras-container2 .remeras8, main article .grid-remeras-container2 .remeras9, main article .grid-remeras-container2 .remeras10 {
       object-fit: cover;
-      width: 200px;
-      height: 300px;
-      border: 1px solid black;
+      width: 190px;
+      height: 290px;
+      border: 1px solid #000;
       border-radius: 10%; }
     main article .grid-remeras-container2 .precio1, main article .grid-remeras-container2 .precio2, main article .grid-remeras-container2 .precio3, main article .grid-remeras-container2 .precio4, main article .grid-remeras-container2 .precio5, main article .grid-remeras-container2 .precio6, main article .grid-remeras-container2 .precio7, main article .grid-remeras-container2 .precio8, main article .grid-remeras-container2 .precio9, main article .grid-remeras-container2 .precio10 {
       text-align: center;
       text-decoration: none;
-      color: black;
+      color: #000;
       font-size: 24px; } }
 
 @media screen and (max-width: 768px) {
@@ -353,7 +436,7 @@ main article .grid-remeras-container2 {
       object-fit: cover;
       width: 175px;
       height: 275px;
-      border: 1px solid black;
+      border: 1px solid #000;
       border-radius: 10%; }
     main article .grid-remeras-container .precio1 {
       grid-area: precio1;
@@ -373,8 +456,8 @@ main article .grid-remeras-container2 {
     main article .grid-remeras-container .precio1, main article .grid-remeras-container .precio2, main article .grid-remeras-container .precio3, main article .grid-remeras-container .precio4, main article .grid-remeras-container .precio5, main article .grid-remeras-container .precio6, main article .grid-remeras-container .precio7, main article .grid-remeras-container .precio8, main article .grid-remeras-container .precio9, main article .grid-remeras-container .precio10 {
       text-align: center;
       text-decoration: none;
-      color: black;
-      font-size: 24px; }
+      color: #000;
+      font-size: 20px; }
   main article .grid-remeras-container2 {
     display: grid;
     grid-template-columns: repeat(2, 40%);
@@ -413,13 +496,13 @@ main article .grid-remeras-container2 {
     main article .grid-remeras-container2 .precio1, main article .grid-remeras-container2 .precio2, main article .grid-remeras-container2 .precio3, main article .grid-remeras-container2 .precio4, main article .grid-remeras-container2 .precio5, main article .grid-remeras-container2 .precio6, main article .grid-remeras-container2 .precio7, main article .grid-remeras-container2 .precio8, main article .grid-remeras-container2 .precio9, main article .grid-remeras-container2 .precio10 {
       text-align: center;
       text-decoration: none;
-      color: black;
-      font-size: 24px; }
+      color: #000;
+      font-size: 20px; }
     main article .grid-remeras-container2 .remeras1, main article .grid-remeras-container2 .remeras2, main article .grid-remeras-container2 .remeras3, main article .grid-remeras-container2 .remeras4, main article .grid-remeras-container2 .remeras5, main article .grid-remeras-container2 .remeras6, main article .grid-remeras-container2 .remeras7, main article .grid-remeras-container2 .remeras8, main article .grid-remeras-container2 .remeras9, main article .grid-remeras-container2 .remeras10 {
       object-fit: cover;
       width: 175px;
       height: 275px;
-      border: 1px solid black;
+      border: 1px solid #000;
       border-radius: 10%; } }
 
 @media screen and (max-width: 420px) {
@@ -447,7 +530,7 @@ main article .grid-remeras-container2 {
       object-fit: cover;
       width: 100px;
       height: 200px;
-      border: 1px solid black;
+      border: 1px solid #000;
       border-radius: 10%; }
     main article .grid-remeras-container .precio1 {
       grid-area: precio1;
@@ -467,7 +550,7 @@ main article .grid-remeras-container2 {
     main article .grid-remeras-container .precio1, main article .grid-remeras-container .precio2, main article .grid-remeras-container .precio3, main article .grid-remeras-container .precio4, main article .grid-remeras-container .precio5, main article .grid-remeras-container .precio6, main article .grid-remeras-container .precio7, main article .grid-remeras-container .precio8, main article .grid-remeras-container .precio9, main article .grid-remeras-container .precio10 {
       text-align: center;
       text-decoration: none;
-      color: black;
+      color: #000;
       font-size: 16px; }
   main article .grid-remeras-container2 {
     display: grid;
@@ -508,13 +591,35 @@ main article .grid-remeras-container2 {
       object-fit: cover;
       width: 100px;
       height: 200px;
-      border: 1px solid black;
+      border: 1px solid #000;
       border-radius: 10%; }
     main article .grid-remeras-container2 .precio1, main article .grid-remeras-container2 .precio2, main article .grid-remeras-container2 .precio3, main article .grid-remeras-container2 .precio4, main article .grid-remeras-container2 .precio5, main article .grid-remeras-container2 .precio6, main article .grid-remeras-container2 .precio7, main article .grid-remeras-container2 .precio8, main article .grid-remeras-container2 .precio9, main article .grid-remeras-container2 .precio10 {
       text-align: center;
       text-decoration: none;
-      color: black;
+      color: #000;
       font-size: 16px; } }
+
+/*colores*/
+/*tipo/tamaño de letra*/
+/*colores*/
+/*tipo/tamaño de letra*/
+/* -----------------------------------------MIXING INDEX----------------------------------------*/
+/*--------------------------------------MIXING BUZOS-----------------------------*/
+/*para escritorio*/
+/*BUZOS media max-width: 1200px*/
+/*BUZOS media max-width: 768px*/
+/*BUZOS media max-width: 420px*/
+/*--------------------------------------MIXING REMERAS-----------------------------*/
+/*para escritorio*/
+/*REMERAS media max-width: 1200px*/
+/*REMERAS media max-width: 768px*/
+/*REMERAS media max-width: 420px*/
+main .titulo {
+  text-align: center;
+  font-size: 35px;
+  margin: 10px;
+  border: 1px solid #000;
+  background-color: grey; }
 
 main article .grid-buzos-container {
   display: grid;
@@ -536,7 +641,7 @@ main article .grid-buzos-container {
     width: 250px;
     height: 350px;
     margin: 15px;
-    border: 2px solid black;
+    border: 2px solid #000;
     border-radius: 10%; }
   main article .grid-buzos-container .buzos-precio1 {
     grid-area: buzos-precio1; }
@@ -552,7 +657,7 @@ main article .grid-buzos-container {
     text-align: center;
     margin-top: 110px;
     text-decoration: none;
-    color: black;
+    color: #000;
     font-size: 24px; }
 
 main article .grid-buzos-container2 {
@@ -575,7 +680,7 @@ main article .grid-buzos-container2 {
     width: 250px;
     height: 350px;
     margin: 15px;
-    border: 2px solid black;
+    border: 2px solid #000;
     border-radius: 10%; }
   main article .grid-buzos-container2 .buzos-precio6 {
     grid-area: buzos-precio6; }
@@ -591,7 +696,7 @@ main article .grid-buzos-container2 {
     text-align: center;
     margin-top: 110px;
     text-decoration: none;
-    color: black;
+    color: #000;
     font-size: 24px; }
 
 @media screen and (max-width: 1200px) {
@@ -614,7 +719,7 @@ main article .grid-buzos-container2 {
       object-fit: cover;
       width: 200px;
       height: 300px;
-      border: 1px solid black;
+      border: 1px solid #000;
       border-radius: 10%; }
     main article .grid-buzos-container .buzos-precio1 {
       grid-area: buzos-precio1;
@@ -634,7 +739,7 @@ main article .grid-buzos-container2 {
     main article .grid-buzos-container .buzos-precio1, main article .grid-buzos-container .buzos-precio2, main article .grid-buzos-container .buzos-precio3, main article .grid-buzos-container .buzos-precio4, main article .grid-buzos-container .buzos-precio5, main article .grid-buzos-container .buzos-precio6, main article .grid-buzos-container .buzos-precio7, main article .grid-buzos-container .buzos-precio8, main article .grid-buzos-container .buzos-precio9, main article .grid-buzos-container .buzos-precio10 {
       text-align: center;
       text-decoration: none;
-      color: black;
+      color: #000;
       font-size: 24px; }
   main article .grid-buzos-container2 {
     display: grid;
@@ -669,13 +774,13 @@ main article .grid-buzos-container2 {
     main article .grid-buzos-container2 .buzos-precio1, main article .grid-buzos-container2 .buzos-precio2, main article .grid-buzos-container2 .buzos-precio3, main article .grid-buzos-container2 .buzos-precio4, main article .grid-buzos-container2 .buzos-precio5, main article .grid-buzos-container2 .buzos-precio6, main article .grid-buzos-container2 .buzos-precio7, main article .grid-buzos-container2 .buzos-precio8, main article .grid-buzos-container2 .buzos-precio9, main article .grid-buzos-container2 .buzos-precio10 {
       text-align: center;
       text-decoration: none;
-      color: black;
+      color: #000;
       font-size: 24px; }
     main article .grid-buzos-container2 .buzos1, main article .grid-buzos-container2 .buzos2, main article .grid-buzos-container2 .buzos3, main article .grid-buzos-container2 .buzos4, main article .grid-buzos-container2 .buzos5, main article .grid-buzos-container2 .buzos6, main article .grid-buzos-container2 .buzos7, main article .grid-buzos-container2 .buzos8, main article .grid-buzos-container2 .buzos9, main article .grid-buzos-container2 .buzos10 {
       object-fit: cover;
       width: 200px;
       height: 300px;
-      border: 1px solid black;
+      border: 1px solid #000;
       border-radius: 10%; } }
 
 @media screen and (max-width: 768px) {
@@ -703,7 +808,7 @@ main article .grid-buzos-container2 {
       object-fit: cover;
       width: 175px;
       height: 275px;
-      border: 1px solid black;
+      border: 1px solid #000;
       border-radius: 10%; }
     main article .grid-buzos-container .buzos-precio1 {
       grid-area: buzos-precio1;
@@ -723,8 +828,8 @@ main article .grid-buzos-container2 {
     main article .grid-buzos-container .buzos-precio1, main article .grid-buzos-container .buzos-precio2, main article .grid-buzos-container .buzos-precio3, main article .grid-buzos-container .buzos-precio4, main article .grid-buzos-container .buzos-precio5, main article .grid-buzos-container .buzos-precio6, main article .grid-buzos-container .buzos-precio7, main article .grid-buzos-container .buzos-precio8, main article .grid-buzos-container .buzos-precio9, main article .grid-buzos-container .buzos-precio10 {
       text-align: center;
       text-decoration: none;
-      color: black;
-      font-size: 24px; }
+      color: #000;
+      font-size: 20px; }
   main article .grid-buzos-container2 {
     display: grid;
     grid-template-columns: repeat(2, 40%);
@@ -764,13 +869,13 @@ main article .grid-buzos-container2 {
       object-fit: cover;
       width: 175px;
       height: 275px;
-      border: 1px solid black;
+      border: 1px solid #000;
       border-radius: 10%; }
     main article .grid-buzos-container2 .buzos-precio1, main article .grid-buzos-container2 .buzos-precio2, main article .grid-buzos-container2 .buzos-precio3, main article .grid-buzos-container2 .buzos-precio4, main article .grid-buzos-container2 .buzos-precio5, main article .grid-buzos-container2 .buzos-precio6, main article .grid-buzos-container2 .buzos-precio7, main article .grid-buzos-container2 .buzos-precio8, main article .grid-buzos-container2 .buzos-precio9, main article .grid-buzos-container2 .buzos-precio10 {
       text-align: center;
       text-decoration: none;
-      color: black;
-      font-size: 24px; } }
+      color: #000;
+      font-size: 20px; } }
 
 @media screen and (max-width: 420px) {
   main article .grid-buzos-container {
@@ -797,7 +902,7 @@ main article .grid-buzos-container2 {
       object-fit: cover;
       width: 100px;
       height: 200px;
-      border: 1px solid black;
+      border: 1px solid #000;
       border-radius: 10%; }
     main article .grid-buzos-container .buzos-precio1 {
       grid-area: buzos-precio1;
@@ -817,7 +922,7 @@ main article .grid-buzos-container2 {
     main article .grid-buzos-container .buzos-precio1, main article .grid-buzos-container .buzos-precio2, main article .grid-buzos-container .buzos-precio3, main article .grid-buzos-container .buzos-precio4, main article .grid-buzos-container .buzos-precio5, main article .grid-buzos-container .buzos-precio6, main article .grid-buzos-container .buzos-precio7, main article .grid-buzos-container .buzos-precio8, main article .grid-buzos-container .buzos-precio9, main article .grid-buzos-container .buzos-precio10 {
       text-align: center;
       text-decoration: none;
-      color: black;
+      color: #000;
       font-size: 16px; }
   main article .grid-buzos-container2 {
     display: grid;
@@ -858,94 +963,71 @@ main article .grid-buzos-container2 {
       object-fit: cover;
       width: 100px;
       height: 200px;
-      border: 1px solid black;
+      border: 1px solid #000;
       border-radius: 10%; }
     main article .grid-buzos-container2 .buzos-precio1, main article .grid-buzos-container2 .buzos-precio2, main article .grid-buzos-container2 .buzos-precio3, main article .grid-buzos-container2 .buzos-precio4, main article .grid-buzos-container2 .buzos-precio5, main article .grid-buzos-container2 .buzos-precio6, main article .grid-buzos-container2 .buzos-precio7, main article .grid-buzos-container2 .buzos-precio8, main article .grid-buzos-container2 .buzos-precio9, main article .grid-buzos-container2 .buzos-precio10 {
       text-align: center;
       text-decoration: none;
-      color: black;
+      color: #000;
       font-size: 16px; } }
 
+/*colores*/
+/*tipo/tamaño de letra*/
+/*colores*/
+/*tipo/tamaño de letra*/
+/* -----------------------------------------MIXING INDEX----------------------------------------*/
+/*--------------------------------------MIXING BUZOS-----------------------------*/
+/*para escritorio*/
+/*BUZOS media max-width: 1200px*/
+/*BUZOS media max-width: 768px*/
+/*BUZOS media max-width: 420px*/
+/*--------------------------------------MIXING REMERAS-----------------------------*/
+/*para escritorio*/
+/*REMERAS media max-width: 1200px*/
+/*REMERAS media max-width: 768px*/
+/*REMERAS media max-width: 420px*/
 main .img-catalogo {
   width: 250px;
   height: 400px;
   margin: 30px;
   object-fit: cover;
-  border: 3px solid black;
+  border: 3px solid #000;
   transition: height, width, 2s; }
   main .img-catalogo:active {
     height: 600px;
     width: 300px;
     position: absolute; }
 
-footer {
+/*colores*/
+/*tipo/tamaño de letra*/
+/*colores*/
+/*tipo/tamaño de letra*/
+.header-footer, header .fondo, footer {
   background-image: url(../imagenes/fondonav.jpg); }
-  footer .footer-h5 {
-    font-size: 16px;
-    color: #ffffff;
-    display: inline;
-    text-align: center; }
-  footer .ul-footer {
-    display: flex;
-    justify-content: center;
-    margin: px; }
-    footer .ul-footer .li-footer {
-      display: flex; }
-      footer .ul-footer .li-footer .redes {
-        color: #ffffff;
-        margin: 5px; }
-        footer .ul-footer .li-footer .redes:hover {
-          color: lightcoral; }
+
+footer .footer-h5 {
+  font-size: 16px;
+  color: #fff;
+  display: inline;
+  text-align: center; }
+
+footer .ul-footer {
+  display: flex;
+  justify-content: center; }
+  footer .ul-footer .li-footer {
+    display: flex; }
+    footer .ul-footer .li-footer .redes {
+      color: #fff;
+      margin: 5px; }
+      footer .ul-footer .li-footer .redes:hover {
+        color: lightcoral; }
 
 :root {
-  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+  font-family: verdana; }
 
 * {
   margin: 0;
   padding: 0; }
 
 body {
-  background-image: url(../imagenes/fondo.jpg); }
-
-.rotacion {
-  height: 100px;
-  width: 100px;
-  transition: height,width, 2s; }
-  .rotacion:hover {
-    height: 300px;
-    width: 300px;
-    font-size: 40px;
-    text-align: center; }
-
-.rotar {
-  background-color: aqua;
-  transition: height, width, 2s; }
-  .rotar:hover {
-    font-size: 48px;
-    color: lightgreen; }
-
-.animacion {
-  text-align: center;
-  margin: 20px;
-  color: #000;
-  animation-name: animaciones;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
-  animation-delay: 1s; }
-
-@keyframes animaciones {
-  0% {
-    color: brown;
-    font-size: large; }
-  25% {
-    color: pink;
-    font-family: 'Times New Roman', Times, serif; }
-  50% {
-    color: dimgrey;
-    transform: rotate(35deg); }
-  75% {
-    color: blue;
-    transform: rotate(45deg); }
-  100% {
-    color: violet;
-    transform: rotate(-40deg); } }
+  background-image: url(../imagenes/fondo-lola.jpg); }

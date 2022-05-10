@@ -1,11 +1,9 @@
+@import "../variables/variables.scss";
+@import "../sass2/mixins";
+
 main{
     .titulo{
-            text-align: center;
-            /*font-size: 35px;
-            margin: 10px;
-            border: 1px solid #000;
-            background-color: #666;
-        */} 
+        @include titulo;}
     div{
         .img-carrousel{
             margin: 10px;
@@ -29,54 +27,33 @@ main{
             "a3-index a1-index a2-index";
             .imagen1-index{
                 grid-area: imagen1-index;
-                margin: 8px;;
-                width: 90%;
+                @include imagenes-index;
             }
             .imagen2-index{
                 grid-area: imagen2-index;
-                margin: 8px;
-                width: 90%;
+                @include imagenes-index;
             }
             .imagen3-index{
                 grid-area: imagen3-index;
-                margin: 8px;
-                width: 90%;
+                @include imagenes-index;
             }
             .a1-index{
                 grid-area: a1-index;
-                text-align: center;
                 margin-top: 60%;
-                font-size: 30px;
-                text-decoration: none;
-                color: blue;
-                &:hover{
-                    color: red;
-                }
+                @include a-index;
             }
             .a2-index{
                 grid-area: a2-index;
-                text-align: center;
                 margin-top: 53%;
                 margin-bottom: 10%;
-                font-size: 30px;
-                text-decoration: none;
-                color: blue;
-                &:hover{
-                    color: red;
-                }
+                @include a-index;
             }
             .a3-index{
                 grid-area: a3-index;
-                text-align: center;
                 margin-top: 49%;
                 margin-bottom: 10%;
-                font-size: 30px;
-                text-decoration: none;
-                color: blue;
                 padding: 0px;
-                &:hover{
-                    color: red;
-                }
+                @include a-index;
             }
         }
         @media screen and (max-width: 768px){

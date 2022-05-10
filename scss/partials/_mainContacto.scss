@@ -1,4 +1,8 @@
+@import "../variables/variables.scss";
+@import "../sass2/mixins";
 main{
+    .titulo{
+        @include titulo;}
     article{
         section{
             .contacto-h3{
@@ -30,7 +34,7 @@ main{
                         border-radius: 15px;
                         border: none;
                         height: 40px;
-                        color: white;
+                        color: $white;
                         font-size: 16px;
                     }
                     #mensaje{
@@ -43,12 +47,12 @@ main{
                     }
                     #enviar{
                         grid-area: enviar;
-                        background-color: #000;
+                        background-color: $black;
                         width: 80px;
                         height: 40px;
                         border: none;
                         border-radius: 30px;
-                        color: white;
+                        color: $white;
                     }
                     .label-nombre{grid-area: label-nombre;}
                     #nombre{grid-area: nombre;}
@@ -58,7 +62,7 @@ main{
                     #telefono{grid-area: telefono;}
                     .label-mensaje{ grid-area: label-mensaje;}
                     input{
-                        caret-color: aqua;
+                        caret-color: $aqua;
                         &:focus{
                             transform: scale(2, 2);
                             border-radius: 30px;;

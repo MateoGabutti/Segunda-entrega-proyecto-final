@@ -1,4 +1,8 @@
+@import "../variables/variables.scss";
+@import "../sass2/mixins";
 main{
+    .titulo{
+        @include titulo;}
     article{
         .grid-remeras-container{
             display: grid;
@@ -54,19 +58,10 @@ main{
                 
             }
             .remeras1, .remeras2, .remeras3, .remeras4, .remeras5, .remeras6, .remeras7, .remeras8, .remeras9, .remeras10{
-                object-fit: cover;
-                width: 250px;
-                height: 350px;
-                margin: 15px;
-                border: 2px solid black;
-                border-radius: 10%;
+                @include remeras-del-1-al-10;
             }
             .precio1, .precio2, .precio3, .precio4, .precio5, .precio6, .precio7, .precio8, .precio9, .precio10{
-                text-align: center;
-                margin-top: 120px;
-                text-decoration: none;
-                color: black;
-                font-size: 24px
+                @include remeras-precio-del-1-al-10;
             }
             }
         .grid-remeras-container2{
@@ -116,19 +111,10 @@ main{
                     
             }
             .precio1, .precio2, .precio3, .precio4, .precio5, .precio6, .precio7, .precio8, .precio9, .precio10{
-                text-align: center;
-                margin-top: 120px;
-                text-decoration: none;
-                color: black;
-                font-size: 24px
+                @include remeras-precio-del-1-al-10;
             }
             .remeras1, .remeras2, .remeras3, .remeras4, .remeras5, .remeras6, .remeras7, .remeras8, .remeras9, .remeras10{
-                object-fit: cover;
-                width: 250px;
-                height: 350px;
-                margin: 15px;
-                border: 2px solid black;
-                border-radius: 10%;
+                @include remeras-del-1-al-10;
             }
         }
         @media screen and (max-width: 1200px){
@@ -157,11 +143,7 @@ main{
                     grid-area: remeras5;
                 }
                 .remeras1, .remeras2, .remeras3, .remeras4, .remeras5,.remeras6, .remeras7, .remeras8, .remeras9, .remeras10 {
-                    object-fit: cover;
-                    width: 200px;
-                    height: 300px;
-                    border: 1px solid black;
-                    border-radius: 10%;
+                    @include remeras-del-1-al-10-1200;
                 }
                 .precio1{
                     grid-area: precio1;
@@ -179,10 +161,7 @@ main{
                     grid-area: precio5;
                 }
                 .precio1, .precio2, .precio3, .precio4, .precio5, .precio6, .precio7, .precio8, .precio9, .precio10{
-                    text-align: center;
-                    text-decoration: none;
-                    color: black;
-                    font-size: 24px
+                    @include remeras-precio-del-1-al-10-1200;
                 }
             }
             .grid-remeras-container2{
@@ -225,17 +204,11 @@ main{
                     grid-area: precio10;
                 }
                 .remeras1, .remeras2, .remeras3, .remeras4, .remeras5,.remeras6, .remeras7, .remeras8, .remeras9, .remeras10 {
-                    object-fit: cover;
-                    width: 200px;
-                    height: 300px;
-                    border: 1px solid black;
-                    border-radius: 10%;
+                    @include remeras-del-1-al-10-1200;
                 }
                 .precio1, .precio2, .precio3, .precio4, .precio5, .precio6, .precio7, .precio8, .precio9, .precio10{
-                    text-align: center;
-                    text-decoration: none;
-                    color: black;
-                    font-size: 24px
+                    @include remeras-precio-del-1-al-10-1200;
+                    
                 }
             }
         }
@@ -273,11 +246,7 @@ main{
                     margin-left: 20px;
                 }
                 .remeras1, .remeras2, .remeras3, .remeras4, .remeras5,.remeras6, .remeras7, .remeras8, .remeras9, .remeras10 {
-                    object-fit: cover;
-                    width: 175px;
-                    height: 275px;
-                    border: 1px solid black;
-                    border-radius: 10%;
+                    @include remeras-del-1-al-10-768;
                 }
                 .precio1{
                     grid-area: precio1;
@@ -300,10 +269,7 @@ main{
                     margin-left: 20px;
                 }
                 .precio1, .precio2, .precio3, .precio4, .precio5, .precio6, .precio7, .precio8, .precio9, .precio10{
-                    text-align: center;
-                    text-decoration: none;
-                    color: black;
-                    font-size: 24px
+                    @include remeras-precio-del-1-al-10-768;
                 }
             }
             .grid-remeras-container2{
@@ -358,17 +324,10 @@ main{
                     margin-left: 20px;
                 }
                 .precio1, .precio2, .precio3, .precio4, .precio5, .precio6, .precio7, .precio8, .precio9, .precio10{
-                    text-align: center;
-                    text-decoration: none;
-                    color: black;
-                    font-size: 24px
+                    @include remeras-precio-del-1-al-10-768;
                 }
                 .remeras1, .remeras2, .remeras3, .remeras4, .remeras5,.remeras6, .remeras7, .remeras8, .remeras9, .remeras10 {
-                    object-fit: cover;
-                    width: 175px;
-                    height: 275px;
-                    border: 1px solid black;
-                    border-radius: 10%;
+                    @include remeras-del-1-al-10-768;
                 }
             }
         }
@@ -405,11 +364,7 @@ main{
                     margin-top: 20px;
                 }
                 .remeras1, .remeras2, .remeras3, .remeras4, .remeras5,.remeras6, .remeras7, .remeras8, .remeras9, .remeras10 {
-                    object-fit: cover;
-                    width: 100px;
-                    height: 200px;
-                    border: 1px solid black;
-                    border-radius: 10%;
+                    @include remeras-del-1-al-10-420;
                 }
                 .precio1{
                     grid-area: precio1;
@@ -432,10 +387,7 @@ main{
                     margin-left: 20px;
                 }
                 .precio1, .precio2, .precio3, .precio4, .precio5, .precio6, .precio7, .precio8, .precio9, .precio10{
-                    text-align: center;
-                    text-decoration: none;
-                    color: black;
-                    font-size: 16px
+                    @include remeras-precio-del-1-al-10-420;
                 }
             }
             .grid-remeras-container2{
@@ -490,17 +442,10 @@ main{
                     margin-left: 20px;
                 }
                 .remeras1, .remeras2, .remeras3, .remeras4, .remeras5,.remeras6, .remeras7, .remeras8, .remeras9, .remeras10 {
-                    object-fit: cover;
-                    width: 100px;
-                    height: 200px;
-                    border: 1px solid black;
-                    border-radius: 10%;
+                    @include remeras-del-1-al-10-420;
                 }
                 .precio1, .precio2, .precio3, .precio4, .precio5, .precio6, .precio7, .precio8, .precio9, .precio10{
-                    text-align: center;
-                    text-decoration: none;
-                    color: black;
-                    font-size: 16px
+                    @include remeras-precio-del-1-al-10-420;
                 }
             }
         }

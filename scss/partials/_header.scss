@@ -1,5 +1,7 @@
+@import "../variables/variables.scss";
+@import "../sass2/extend";
 header{
         .fondo{
-            background-image: url(../imagenes/fondonav.jpg);
+            @extend .header-footer;
         }
     }

@@ -1,3 +1,6 @@
+@import "variables/variables.scss";
+@import "sass2/mixins";
+@import "sass2/extend";
 @import "partials/header";
 @import "partials/mainIndex";
 @import "partials/mainContacto";
@@ -6,63 +9,12 @@
 @import "partials/mainCatalogo";
 @import "partials/footer";
 :root{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: $verdana;
 }
 *{
     margin: 0;
     padding: 0;
 }
 body{
-    background-image: url(../imagenes/fondo.jpg);
-}
-.rotacion{
-    height: 100px;
-    width: 100px;
-    transition: height,width, 2s;
-    &:hover{
-        height: 300px;
-        width: 300px;
-        font-size: 40px;
-        text-align: center;
-};
-}
-.rotar{
-    background-color: aqua;
-    transition: height, width, 2s;
-    &:hover{
-        font-size: 48px;
-        color: lightgreen;
-};
-    }
-
-.animacion{
-    text-align: center;
-    margin: 20px;
-    color: #000;
-    animation-name: animaciones;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    animation-delay: 1s;
-}
-@keyframes animaciones{
-    0%{ 
-        color: brown;
-        font-size: large;
-    }
-    25%{
-        color: pink;
-        font-family: 'Times New Roman', Times, serif;
-    }
-    50%{
-        color: dimgrey;
-        transform: rotate(35deg);
-    }
-    75%{
-        color: blue;
-        transform: rotate(45deg) ;
-    }
-    100%{
-        color: violet;
-        transform: rotate(-40deg);
-    }
+    background-image: url(../imagenes/fondo-lola.jpg);
 }

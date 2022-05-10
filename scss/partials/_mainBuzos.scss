@@ -1,4 +1,8 @@
+@import "../variables/variables.scss";
+@import "../sass2/mixins";
 main{
+    .titulo{
+        @include titulo;}
     article{
         .grid-buzos-container{
             display: grid;
@@ -23,12 +27,7 @@ main{
                 grid-area: buzos5;
             }
             .buzos1, .buzos2, .buzos3, .buzos4, .buzos5, .buzos6, .buzos7, .buzos8, .buzos9, .buzos10{
-                object-fit: cover;
-                width: 250px;
-                height: 350px;
-                margin: 15px;
-                border: 2px solid black;
-                border-radius: 10%;
+                @include buzos-del-1-al-10;
             }
             .buzos-precio1{
                 grid-area: buzos-precio1;
@@ -46,11 +45,7 @@ main{
                 grid-area: buzos-precio5;
             }
             .buzos-precio1, .buzos-precio2, .buzos-precio3, .buzos-precio4, .buzos-precio5, .buzos-precio6, .buzos-precio7, .buzos-precio8, .buzos-precio9, .buzos-precio10{
-                text-align: center;
-                margin-top: 110px;
-                text-decoration: none;
-                color: black;
-                font-size: 24px
+                @include buzos-precio-del-1-al-10;
             }
         }
         .grid-buzos-container2{
@@ -76,12 +71,7 @@ main{
                 grid-area: buzos10;
             }
             .buzos1, .buzos2, .buzos3, .buzos4, .buzos5, .buzos6, .buzos7, .buzos8, .buzos9, .buzos10{
-                object-fit: cover;
-                width: 250px;
-                height: 350px;
-                margin: 15px;
-                border: 2px solid black;
-                border-radius: 10%;
+                @include buzos-del-1-al-10;
             }
             .buzos-precio6{
                 grid-area: buzos-precio6;
@@ -99,11 +89,7 @@ main{
                 grid-area: buzos-precio10;
             }
             .buzos-precio1, .buzos-precio2, .buzos-precio3, .buzos-precio4, .buzos-precio5, .buzos-precio6, .buzos-precio7, .buzos-precio8, .buzos-precio9, .buzos-precio10{
-                text-align: center;
-                margin-top: 110px;
-                text-decoration: none;
-                color: black;
-                font-size: 24px
+                @include buzos-precio-del-1-al-10;
             }
         }
         @media screen and (max-width: 1200px){
@@ -132,11 +118,7 @@ main{
                     grid-area: buzos5;
                 }
                 .buzos1, .buzos2, .buzos3, .buzos4, .buzos5,.buzos6, .buzos7, .buzos8, .buzos9, .buzos10 {
-                    object-fit: cover;
-                    width: 200px;
-                    height: 300px;
-                    border: 1px solid black;
-                    border-radius: 10%;
+                    @include buzos-del-1-al-10-1200;
                 }
                 .buzos-precio1{
                     grid-area: buzos-precio1;
@@ -159,10 +141,7 @@ main{
                     margin-top: 120px;
                 }
                 .buzos-precio1, .buzos-precio2, .buzos-precio3, .buzos-precio4, .buzos-precio5, .buzos-precio6, .buzos-precio7, .buzos-precio8, .buzos-precio9, .buzos-precio10{
-                    text-align: center;
-                    text-decoration: none;
-                    color: black;
-                    font-size: 24px
+                    @include buzos-precio-del-1-al-10-1200;
                 }
             }
             .grid-buzos-container2{
@@ -210,17 +189,10 @@ main{
                     margin-top: 120px;
                 }
                 .buzos-precio1, .buzos-precio2, .buzos-precio3, .buzos-precio4, .buzos-precio5, .buzos-precio6, .buzos-precio7, .buzos-precio8, .buzos-precio9, .buzos-precio10{
-                    text-align: center;
-                    text-decoration: none;
-                    color: black;
-                    font-size: 24px
+                    @include buzos-precio-del-1-al-10-1200;
                 }
                 .buzos1, .buzos2, .buzos3, .buzos4, .buzos5,.buzos6, .buzos7, .buzos8, .buzos9, .buzos10 {
-                    object-fit: cover;
-                    width: 200px;
-                    height: 300px;
-                    border: 1px solid black;
-                    border-radius: 10%;
+                    @include buzos-del-1-al-10-1200;
                 }
             }
         }
@@ -257,11 +229,7 @@ main{
                     margin-left: 20px;
                 }
                 .buzos1, .buzos2, .buzos3, .buzos4, .buzos5,.buzos6, .buzos7, .buzos8, .buzos9, .buzos10 {
-                    object-fit: cover;
-                    width: 175px;
-                    height: 275px;
-                    border: 1px solid black;
-                    border-radius: 10%;
+                    @include buzos-del-1-al-10-768;
                 }
                 .buzos-precio1{
                     grid-area: buzos-precio1;
@@ -284,10 +252,7 @@ main{
                     margin-left: 20px;
                 }
                 .buzos-precio1, .buzos-precio2, .buzos-precio3, .buzos-precio4, .buzos-precio5, .buzos-precio6, .buzos-precio7, .buzos-precio8, .buzos-precio9, .buzos-precio10{
-                    text-align: center;
-                    text-decoration: none;
-                    color: black;
-                    font-size: 24px
+                    @include buzos-precio-del-1-al-10-768;
                 }
             }
             .grid-buzos-container2{
@@ -342,17 +307,10 @@ main{
                     margin-left: 20px;
                 }
                 .buzos1, .buzos2, .buzos3, .buzos4, .buzos5,.buzos6, .buzos7, .buzos8, .buzos9, .buzos10 {
-                    object-fit: cover;
-                    width: 175px;
-                    height: 275px;
-                    border: 1px solid black;
-                    border-radius: 10%;
+                    @include buzos-del-1-al-10-768;
                 }
                 .buzos-precio1, .buzos-precio2, .buzos-precio3, .buzos-precio4, .buzos-precio5, .buzos-precio6, .buzos-precio7, .buzos-precio8, .buzos-precio9, .buzos-precio10{
-                    text-align: center;
-                    text-decoration: none;
-                    color: black;
-                    font-size: 24px
+                    @include buzos-precio-del-1-al-10-768;
                 }
             }
         }
@@ -389,11 +347,7 @@ main{
                     margin-top: 20px;
                 }
                 .buzos1, .buzos2, .buzos3, .buzos4, .buzos5,.buzos6, .buzos7, .buzos8, .buzos9, .buzos10 {
-                    object-fit: cover;
-                    width: 100px;
-                    height: 200px;
-                    border: 1px solid black;
-                    border-radius: 10%;
+                    @include buzos-del-1-al-10-420;
                 }
                 .buzos-precio1{
                     grid-area: buzos-precio1;
@@ -416,10 +370,7 @@ main{
                     margin-left: 20px;
                 }
                 .buzos-precio1, .buzos-precio2, .buzos-precio3, .buzos-precio4, .buzos-precio5, .buzos-precio6, .buzos-precio7, .buzos-precio8, .buzos-precio9, .buzos-precio10{
-                    text-align: center;
-                    text-decoration: none;
-                    color: black;
-                    font-size: 16px
+                    @include buzos-precio-del-1-al-10-420;
                 }
             }
             .grid-buzos-container2{
@@ -474,17 +425,10 @@ main{
                     margin-left: 20px;
                 }
                 .buzos1, .buzos2, .buzos3, .buzos4, .buzos5,.buzos6, .buzos7, .buzos8, .buzos9, .buzos10 {
-                    object-fit: cover;
-                    width: 100px;
-                    height: 200px;
-                    border: 1px solid black;
-                    border-radius: 10%;
+                    @include buzos-del-1-al-10-420;
                 }
                 .buzos-precio1, .buzos-precio2, .buzos-precio3, .buzos-precio4, .buzos-precio5, .buzos-precio6, .buzos-precio7, .buzos-precio8, .buzos-precio9, .buzos-precio10{
-                    text-align: center;
-                    text-decoration: none;
-                    color: black;
-                    font-size: 16px
+                    @include buzos-precio-del-1-al-10-420;
                 }
             }
         } 
